@@ -1,1 +1,2 @@
-alert("Welcome to the Superhero Web Application!");
+// alert("Welcome to the Superhero Web Application!");
+console.log("hello from js");
