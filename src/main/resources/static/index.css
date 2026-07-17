@@ -1,9 +1,18 @@
-h1{
-    color:blueviolet;
+body{
+    margin: 0px;
 }
-h2{
-    color:springgreen;
+
+.navbar{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding:20px;
+    text-align: center;
 }
-h3{
-    color:orangered;
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
 }
