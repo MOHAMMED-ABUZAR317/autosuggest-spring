@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgb(130, 129, 129);
 }
 
 .navbar{
@@ -8,6 +9,8 @@ body{
     border-color: gray;
     padding:20px;
     text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .navbar a{
@@ -15,4 +18,42 @@ body{
     color: black;
     font-size: 20px;
     padding: 20px;
+}
+
+.navbar a:hover{
+    color:blue;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.card{  
+    border : 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 50 px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    border-radius:8px;
+    border: none;
+    padding:10px;
+    width:80%
+}
+.card button:hover{
+    background-color: aqua;
+    color: blue;
+    cursor: pointer;
 }
