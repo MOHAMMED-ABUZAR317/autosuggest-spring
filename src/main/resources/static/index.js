@@ -1,2 +1,30 @@
 // alert("Welcome to the Superhero Web Application!");
 console.log("hello from js");
+
+var users=[
+    {
+        "name":"MOHAMMED ABUZAR",
+        "gender":"male",
+         "img" : "passport photo.png"
+    },
+    {
+        "name" :"REAVEALED Spiderman",
+        "gender" : "male",
+            "img" : "spiderman.jpg"
+    }
+]
+
+var id = 0;
+function ToggleUser(){
+    id = (id + 1) % 2;
+
+    var UserImage = document.getElementById("user-image");
+    UserImage.src = users[id].img;
+
+    var UserName = document.getElementById("user-name");
+    UserName.innerHTML = users[id].name;
+
+    var UserGender = document.getElementById("user-gender");
+    UserGender.innerHTML = users[id].gender;
+}
+
