@@ -26,6 +26,9 @@ function ToggleUser(){
 
     var UserGender = document.getElementById("user-gender");
     UserGender.innerHTML = users[id].gender;
+
+    var background = document.getElementById("background");
+    background.src = users[id].img;
 }
 
 function RandomUser() {
@@ -45,6 +48,7 @@ function RandomUser() {
 
     var UserGender = document.getElementById("user-gender");
     UserGender.innerHTML = UserData.gender;
+
         }
     )
 

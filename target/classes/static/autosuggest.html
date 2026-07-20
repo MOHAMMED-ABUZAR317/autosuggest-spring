@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO SUGGEST</title>
+    <style>
+        body{
+            text-align: center;
+            align-items: right;
+        }
+        .gear{
+            position: fixed;
+            top: 20px;
+            left:20px;
+        }
+        .pill{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+        .logo{
+            margin-top: 150px;
+            font-weight: bold;
+        }
+        .being{
+            color:chartreuse;
+        }
+        .tag-line{
+            color:lightgray;
+        }
+
+        .search-icon{
+        position:relative;
+        left: 30px;
+        }
+        .bar{
+            border-radius: 60px;
+            position: relative;
+            padding: 10px;
+            padding-left: 30px;
+            width :25%;
+            background-color: transparent;
+        }
+        
+            .searchbox-suggestions {
+           width:25%;
+           border-radius : 16px;
+            text-align:left;
+            overflow:hidden;
+            margin: auto;
+            border-color:black;
+            padding-left: auto;
+            padding-right:auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+        }
+         .suggestion {
+            padding: 10px 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+        }
+        </style>
+    
+</head>
+<body>
+    <span class="gear">&#x2699;</span>
+    <span class ="pill">&#8226; online | &#x1F552; - ms</span>
+    <h1 class = "logo">
+        <span class = "being">Being</span>
+        <span = class = "infinity">Infinity</span>
+    </h1>
+    <p class = "tag-line">one million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
+    <span class="search-icon"> &#128269;</span>
+    <input class="bar" type="text" placeholder="Start typing to search phrases....">
+        <div class = "searchbox-suggestions">
+        <div class = "suggestion">cyber security</div>
+        <div class = "suggestion ">Artificial intelligence</div>
+        </div>
+    <script>    
+
+    </script>
+</body>
+</html>

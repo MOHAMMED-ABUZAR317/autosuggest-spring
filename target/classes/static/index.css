@@ -1,6 +1,7 @@
 body{
     margin: 0px;
-    background-color: rgb(130, 129, 129);
+    background-color:cornflowerblue;
+    background-image:url("neon.jpg");
 }
 
 .navbar{
